@@ -57,7 +57,7 @@ class Solution {
 }
 
 */
-class Solution {
+class PartitionArrayAccordingtoGivenPivot {
     public int[] pivotArray(int[] nums, int pivot) {
         int lessCount =0;
         int equalCount =0;
