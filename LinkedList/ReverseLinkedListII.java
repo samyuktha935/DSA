@@ -1,4 +1,11 @@
-class Solution {
+class ListNode{
+    int val;
+    ListNode next;
+    ListNode(int val) {
+        this.val = val;
+    }
+}
+class ReverseLinkedListII {
 
     public ListNode reverseBetween(ListNode head, int left, int right) {
 
